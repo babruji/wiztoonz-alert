@@ -18,13 +18,14 @@
     <input type="text" name="lastname" size="20"/> <br> <br>    
     <label>   
     Gender :  
-    </label><br>  
-    <input type="radio" name="male"/> Male   
-    <input type="radio" name="female"/> Female  
-    <input type="radio" name="other"/> Other  
-    <br>  
-    <br>  
-    <label>   
+    <p>
+        <input type="radio" id="Male" name="fav_language" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="fav_language" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="Other" name="fav_language" value="Other">
+        <label for="other">Other</label>
+    </p>
         States 
            </label>
            <select>  
@@ -45,11 +46,10 @@
                 <br>
                 <br>
       
-    <label>   
-    Phone :  
-    </label>  
-    <input type="text" name="country code"  value="+91" size="4"/>   
-    <input type="text" name="phone" size="20"/> <br> <br>  
+                <p>
+                    Phone Number:
+                    <input type="text" name="Phone Number" size="20" maxlength="10">
+                </p>
     Address  
     <br>  
     <textarea cols="80" rows="5" value="address">  
